@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bgWot.jpg");
+  backdrop-filter: blur(3px);
+  margin:5px;
+}
+
+.header {
+  background-image:url("images/OIP.jpg");
+  text-align: center;
+  padding: 30px;
+  color:white;
+} 
+
+
+
+.button1 {
+     
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float:right;
+}
+.button1:hover {
+  background-color:rgba(19, 17, 17, 0);
+}
+.wotData{
+  font-size:17px;
+}
+
+.wotExtra{
+  float: right;
+  width: 30%;
+  padding: 15px;
+  background-color:rgb(107, 180, 223);
+  margin-left:25px;
+  margin-top:1px;
+}
+.wotExtra::before{
+  content:open-quote;
+  font-size: 40px;
+  color:red;
+  vertical-align: super;
+}
+.wotExtra::after{
+  content:close-quote;
+  font-size: 40px;
+  color:red;
+  vertical-align:sub;
+  position:absolute;
+}
+.rubbish{
+  color:transparent;
+}
+.microcon:hover{
+  content:url("/images/microcon.png");
+  
+  position:absolute;
+  size:25%;
+}
+.microcon, .ambient{
+  font:none;
+  color:indigo;
+  text-decoration: none;
+}
+.ambient:hover{
+  content:url("images/ambient.png");
+  
+  position:absolute;
+  width: 35%;
+}
+

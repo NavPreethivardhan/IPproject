@@ -1,0 +1,137 @@
+html
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bgsensor.jpg");
+  color:black;
+  backdrop-filter:blur(8px);
+  margin:5px;
+}
+.header {
+    
+  text-align: center;
+  padding: 30px;
+  background-image: url("images/OIP.jpg");
+  color:white;
+}
+
+.button1 {
+   
+background-color: transparent;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+float:right;
+}
+
+.sensorExtra{
+  float: right;
+  width: 20%;
+  padding: 15px;
+  background-color:rgb(107, 180, 223);
+}
+
+.row{
+  font-size: 17px;
+}
+.smartExtra{
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background-color:rgb(107, 180, 223);
+  margin-right:10%;
+  margin-bottom:175px;
+  margin-left:10%;
+  margin-top: 50px
+}
+.phoneImage{
+  float:right;
+  margin-left:10%;
+  margin-right:10%;
+}
+.mount,.resist, .capacity , .conduct, .proxim ,.ultra, .gyro{
+  font:none;
+  color:indigo;
+  text-decoration: none;
+  position:relative;
+}
+.mount:hover::after{
+  display:inline-block;
+  background-image:url("images/mounted.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 30vw;
+  height: 8vh;
+  top:5px;
+  position:absolute;
+}
+.resist:hover::after{
+  display:inline-block;
+  background-image:url("images/resist.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 35vw;
+  height: 15vh;
+  top:5px;
+  position:absolute;
+}
+.capacity:hover::after{
+  display:inline-block;
+  background-image:url("images/capacity.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 35vw;
+  height: 12vh;
+  top:5px;
+  position:absolute;
+}
+.conduct:hover::after{
+  display:inline-block;
+  background-image:url("images/conduct.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 37vw;
+  height: 12vh;
+  top:5px;
+  position:absolute;
+  overflow-y: auto;
+}
+.proxim:hover::after{
+  display:inline-block;
+  background-image:url("images/proxim.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 30vw;
+  height: 10vh;
+  top:5px;
+  position:absolute;
+}
+.ultra:hover::before{
+  display:inline-block;
+  background-image:url("images/ultra.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 33vw;
+  height: 9vh;
+  top:2.5vh;
+  right:0.5vw;
+  position:absolute;
+}
+.gyro:hover::after{
+  display:inline-block;
+  background-image:url("images/gyro.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 35vw;
+  height: 12vh;
+  top:5px;
+  position:absolute;
+}
+
+
+
+

@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/bgIot.jpg");
+    color:beige;
+    backdrop-filter: blur(50px);
+    
+}
+h1{ color:cornflowerblue; margin: 50px; font:bold; text-align: center; text-decoration:underline; }
+h2{margin: 10px; font:bold;}
+.iotData{margin : 10px 10px 10px 20px;}
+.iot_app{margin: 10px; color:springgreen;}
+
+.header {
+    
+  text-align: center;
+  padding: 40px;
+  background-image: url("images/OIP.jpg");
+  color:white;
+  
+} 
+
+
+.iot{ width: 300px;
+      border-radius: 10px;float:right; margin: 10px;}      
+
+
+.button1 {
+     
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float:right;
+}
+
+.p{
+  font-size:15px;
+}
+.appData{
+  font-size:15px;
+}
+.iotData{
+  font-size:17px;
+}
+.appliances , .surveillence{
+  font:none;
+  color:turquoise;
+  text-decoration: none;
+  position:relative;
+}
+.appliances:hover{  
+  display:inline-block;
+  background-image:url("images/appliance.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 35vw;
+  height: 12vh;
+  top:5px;
+  position:absolute;
+}
+.surveillence:hover{  
+  display:inline-block;
+  background-image:url("images/surveillence.png");
+  content:"";
+  background-size: 100% 100%;
+  width: 35vw;
+  height: 12vh;
+  top:5px;
+  position:absolute;
+}
